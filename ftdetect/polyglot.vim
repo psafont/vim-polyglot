@@ -1381,9 +1381,9 @@ if !has_key(s:disabled_packages, 'ocaml')
   au BufNewFile,BufRead *.ml set ft=ocaml
   au BufNewFile,BufRead *.ml.cppo set ft=ocaml
   au BufNewFile,BufRead *.ml4 set ft=ocaml
-  au BufNewFile,BufRead *.mli set ft=ocaml
-  au BufNewFile,BufRead *.mli.cppo set ft=ocaml
-  au BufNewFile,BufRead *.mlip set ft=ocaml
+  au BufNewFile,BufRead *.mli set ft=ocamlinterface
+  au BufNewFile,BufRead *.mli.cppo set ft=ocamlinterface
+  au BufNewFile,BufRead *.mlip set ft=ocamlinterface
   au BufNewFile,BufRead *.mll set ft=ocaml
   au BufNewFile,BufRead *.mlp set ft=ocaml
   au BufNewFile,BufRead *.mlt set ft=ocaml
